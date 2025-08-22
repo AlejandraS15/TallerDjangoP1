@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h3>Movies per Year</h3>
+    <img src="data:image/png;base64,{{ graphic_year }}" alt="Movies per year chart" class="img-fluid mb-4">
+
+    <h3>Movies per Genre</h3>
+    <img src="data:image/png;base64,{{ graphic_genre }}" alt="Movies per genre chart" class="img-fluid">
+{% endblock content %}
